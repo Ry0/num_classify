@@ -6,7 +6,7 @@ import caffe
 
 def input_arg(argvs, argc):
     if (argc != 2):   # 引数が足りない場合は、その旨を表示
-        print 'Usage: # python %s srcdirectory outputdirectory' % argvs[0]
+        print 'Usage: # python %s image/0.jpg' % argvs[0]
         quit()        # プログラムの終了
 
     print 'Input filename = %s' % argvs[1]
