@@ -12,7 +12,7 @@ cd $CAFFE_ROOT
 * 学習を実行させる前に`./examples/mnist/lenet_solver.prototxt`の内容確認
 * CPUのみを使う場合は最後の行を`solver_mode: CPU`に
 
-###学習の実行
+### 学習の実行
 
 ```bash
 cd $CAFFE_ROOT
@@ -22,7 +22,7 @@ cd $CAFFE_ROOT
 学習が完了したら，`lenet_iter_10000.caffemodel`等が`./examples/mnist/`に生成される．
 確認用プログラムはこのファイルネームで参照している．
 
-###学習結果の確認
+### 学習結果の確認
 グラフを出したかったら，下のURL参照
 
 > CaffeでMNISTを学習した経過をプロットしてみた  
@@ -43,7 +43,7 @@ cd num_classify
 python num_classify.py image/7.jpg
 ```
 
-###結果
+### 結果
 入力画像がこれ  
 
 ![7](./image/7.jpg)
@@ -58,7 +58,7 @@ input image is " 7 " ＼(^o^)／
     2.00894289e-02   1.29787195e-02]]
 ```
 
-###参考
+### 参考
 自分で作成する画像はグレースケール画像じゃないとエラーがでる．
 GIMPで作るなら設定を変えるか，Imagemagickを使って変換する．
 
